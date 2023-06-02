@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #000B19;
+    --white-text: #d0d0d0;
+    --dark-text:#6b6b6b;
+    
+    font-size: 62.5%; /*1rem = 100% = 16px ------ 62.5% = 10px = 1.6rem = 16px*/
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.6rem;
+}

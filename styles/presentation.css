@@ -1,0 +1,32 @@
+.presentation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+.presentation__description-title{
+    font-size: 3.2rem;
+    font-weight: 700;
+    line-height: 1.44;
+    color: #fff;
+}
+
+.presentation__description-content{
+    color: var(--white-text);
+}
+
+.presentation__contact-button{
+    background-color: #25d366;
+    padding: 1.5rem 4rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    display: inline-block;
+}
+
+.presentation__image{
+    align-self: center;
+    max-width: 100%;
+    margin-top: 5rem;
+}
