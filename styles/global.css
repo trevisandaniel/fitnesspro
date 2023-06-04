@@ -15,3 +15,27 @@ body{
     -webkit-font-smoothing: antialiased;
     font-size: 1.6rem;
 }
+
+.container{
+    padding: 0 3rem;
+}
+
+.text{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.text--dark{
+    color: var(--dark-text);
+}
+
+.text--white{
+    color: var(--white-text);
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2.4rem;
+    color: var(--primary-color);
+    line-height: 1.7rem;
+}

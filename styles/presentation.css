@@ -11,9 +11,6 @@
     color: #fff;
 }
 
-.presentation__description-content{
-    color: var(--white-text);
-}
 
 .presentation__contact-button{
     background-color: #25d366;
