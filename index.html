@@ -16,6 +16,10 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/presentation.css">
     <link rel="stylesheet" href="styles/features.css">
+    <link rel="stylesheet" href="styles/services.css">
+    <link rel="stylesheet" href="styles/gym-environment.css">
+    <link rel="stylesheet" href="styles/photos.css">
+    <link rel="stylesheet" href="styles/footer.css">
   </head>
   <body>
     <header class="header container">
@@ -26,15 +30,15 @@
       />
       <nav>
         <ul class="header__nav">
-          <li><a class="header__nav-item" href="#">Início</a></li>
-          <li><a class="header__nav-item" href="#">Nós</a></li>
-          <li><a class="header__nav-item" href="#">Serviços</a></li>
-          <li><a class="header__nav-item" href="#">Ambiente</a></li>
+          <li><a class="header__nav-item" href="#presentation">Início</a></li>
+          <li><a class="header__nav-item" href="#features">Nós</a></li>
+          <li><a class="header__nav-item" href="#services">Serviços</a></li>
+          <li><a class="header__nav-item" href="#gym">Ambiente</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="presentation container">
+    <section class="presentation container" id="presentation">
       <div class="presentation__description-container">
         <h1 class="presentation__description-title">
           Construa a saúda e o corpo que você merece.
@@ -54,9 +58,9 @@
       />
     </section>
 
-    <section class="features container">
+    <section class="features container" id="features">
       <h1 class="features__title title">
-        O que você vai ganhar treinando com a gente?
+        O que você vai ganhar <br class="lg-only">treinando com a gente?
       </h1>
       <div class="features__containter">
         <div class="features__item">
@@ -98,7 +102,7 @@
       </div>
     </section>
 
-    <section class="services">
+    <section class="services container" id="services">
       <img
         class="services__image"
         src="assets/image-2.jpg"
@@ -106,8 +110,8 @@
       />
       <div class="services__description-container">
         <span class="tag">Serviços</span>
-        <h1 class="services__title">Tudo o que você quer no mesmo lugar</h1>
-        <p class="services__content">
+        <h1 class="services__title title">Tudo o que você quer <br class="lg-only"> no mesmo lugar</h1>
+        <p class="services__content text text--dark">
           Na Fitness Pro você terá tudo o que precisa para conquistar resultados
           incríveis. Só depende de você!
         </p>
@@ -116,7 +120,7 @@
           <img src="assets/check-icon.svg" alt="ícone de check" />
           <div class="services__info">
             <h2 class="services__item-title">Treinadores Profissionais</h2>
-            <p class="services__item-content">
+            <p class="services__item-content text text--dark">
               Treine com os melhores profissionais da musculação com exercícios
               de simples execução.
             </p>
@@ -126,7 +130,7 @@
           <img src="assets/check-icon.svg" alt="ícone de check" />
           <div class="services__info">
             <h2 class="services__item-title">Você no controle do seu tempo</h2>
-            <p class="services__item-content">
+            <p class="services__item-content text text--dark">
               Obtenha treinos de acordo com seu momento, respeitamos os seus
               dias e horários disponíveis.
             </p>
@@ -136,7 +140,7 @@
           <img src="assets/check-icon.svg" alt="ícone de check" />
           <div class="services__info">
             <h2 class="services__item-title">Avaliação física</h2>
-            <p class="services__item-content">
+            <p class="services__item-content text text--dark">
               Veja seus resultados na ponta do lápis, com nossa avaliação física
               completa.
             </p>
@@ -145,15 +149,15 @@
       </div>
     </section>
 
-    <section class="gym-environment">
+    <section class="gym-environment container" id="gym">
       <div class="gym-environment__description-containter">
-        <span class="tag">A academia</span>
-        <h1 class="gym-environment__title">
-          O ambiente que faz a diferença nos seus resultados.
+        <span class="tag">Academia Fitness Pro</span>
+        <h1 class="gym-environment__title title">
+          O ambiente que faz<br class="lg-only"> a diferença nos seus resultados.
         </h1>
-        <p class="gym-environment__content">
-          Nós sabemos que um ambiente incrível leva a resultados incríveis, por
-          este motivo pensamos cuidadosamente em cada detalhe.
+        <p class="gym-environment__content text text--dark">
+          Nós sabemos que um ambiente incrível leva a<br class="lg-only"> resultados incríveis, por
+          este motivo pensamos<br class="lg-only"> cuidadosamente em cada detalhe.
         </p>
       </div>
 
@@ -164,8 +168,8 @@
       />
     </section>
 
-    <section class="photos">
-      <h1>Aparelhos modernos para os melhores resultados.</h1>
+    <section class="photos container">
+      <h1 class="title">Aparelhos modernos<br class="lg-only"> para os melhores resultados.</h1>
       <div class="photos__photos-containter">
         <img
           src="assets/image-4.jpg"
@@ -201,11 +205,12 @@
     </section>
 
     <footer class="footer">
-      <div class="footer__container">
+      <div class="footer__container container">
+
         <div class="footer__brand-container">
           <img src="assets/logo.svg" alt="logotipo fitness pro" />
-          <p class="footer__brand-text">
-            Treine de uma forma personalizada para você e alcance resultados!
+          <p class="footer__brand-text text text--white">
+            Treine de uma forma personalizada<br class="lg-only"> para você e alcance resultados!
           </p>
           <ul class="brand__social-media">
             <li class="brand__social-media-item">
@@ -229,7 +234,7 @@
 
         <div class="footer__contact-container">
           <h2 class="footer_contact-title">Fale conosco</h2>
-          <address class="footer__adress">
+          <address class="footer__adress text text--white">
             Av. do Estado, 3344<br />
             São Paulo - SP<br />
             CEP: 01020-30<br />

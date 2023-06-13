@@ -33,3 +33,27 @@
 .header__nav-item:hover{
     color: #FF8C2B;
 }
+
+@media (min-width: 900px){
+    .header{
+        display: flex;
+        margin-top: 3rem;
+        justify-content: space-between;
+    }
+    .header__nav-item{
+        margin-left: 3rem;
+    }
+    .header__nav{
+        margin-top: 0;
+    }
+
+    .header::before{
+        height: 38rem;
+    }
+}
+
+@media (min-width: 1040px){
+    .header::before{
+        height: 52rem;
+    }
+}
